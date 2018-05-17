@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.cifer.uicollection.MainActivity">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/text"
+        android:visibility="invisible"
+        android:layout_margin="140dp"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageview"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <com.cifer.uicollection.Letterlist
+        android:layout_width="50dp"
+        android:id="@+id/letterlist"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        app:bgcolor = "#000000"
+        app:textSize="15sp"/>
+</FrameLayout>

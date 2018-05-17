@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="app">
+        <attr name="bgcolor" format="color">#ffffff</attr>
+        <attr name="textColor" format="color">#ffffff</attr>
+        <attr name="roundWidth" format="dimension">25</attr>
+        <attr name="textSize" format="dimension">25</attr>
+
+
+    </declare-styleable>
+
+</resources>
