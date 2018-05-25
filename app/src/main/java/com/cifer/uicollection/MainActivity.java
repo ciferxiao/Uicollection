@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     private RotateSensorUtil sensorUtil;
     private ArrayList<View> rotateViews = new ArrayList<>();
+
+    private FontSizeSeekbar sizeSeekbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +40,14 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        //seekbar 回调
+        sizeSeekbar.setResponseOnTouch(new FontSizeSeekbar.ResponseOnTouch() {
+            @Override
+            public void onTouchResponse(int section) {
+
+            }
+        });
+
     }
 
     @Override
