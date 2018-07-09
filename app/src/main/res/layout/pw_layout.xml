@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:layout_gravity="center|center_horizontal"
+    android:orientation="vertical">
+
+    <com.example.zf_rcs_settings.password.PassWordEditText
+        android:id="@+id/pw_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_margin="20dp"
+        android:background="@null"
+        app:bgColor="#a5a5a5"
+        app:bgCorner="3dp"
+        app:divisionLineColor="#a5a5a5"
+        app:bgSize="1dp"
+        app:passwordColor="#000"
+        app:passwordRadius="5dp"
+        app:divisionLinesSize="1dp"
+        app:passwordNumber="4"
+        />
+    <com.example.zf_rcs_settings.password.CustomerKeyboard
+        android:id="@+id/keyboard_View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

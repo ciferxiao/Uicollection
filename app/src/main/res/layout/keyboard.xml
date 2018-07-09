@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1d5db"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        >
+
+        <TextView
+            style="@style/Keyboard"
+            android:layout_marginEnd="1dp"
+            android:textStyle="bold"
+            android:text="@string/a" />
+
+        <TextView
+            style="@style/Keyboard"
+            android:layout_marginEnd="1dp"
+            android:text="@string/b" />
+
+        <TextView
+            style="@style/Keyboard"
+            android:text="@string/c" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Keyboard"
+            android:layout_marginEnd="1dp"
+            android:text="@string/d" />
+
+        <TextView
+            style="@style/Keyboard"
+            android:layout_marginEnd="1dp"
+            android:text="@string/e" />
+
+        <TextView
+            style="@style/Keyboard"
+            android:text="@string/f" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Keyboard"
+            android:layout_marginEnd="1dp"
+            android:text="@string/g" />
+
+        <TextView
+            style="@style/Keyboard"
+            android:layout_marginEnd="1dp"
+            android:text="@string/h" />
+
+        <TextView
+            style="@style/Keyboard"
+            android:text="@string/i"
+            android:id="@+id/textView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/Keyboard"
+            android:id="@+id/cancel"
+            android:src="@drawable/keyboard_dismiss"
+            android:layout_marginEnd="1dp" />
+
+        <TextView
+            style="@style/Keyboard"
+            android:layout_marginEnd="1dp"
+            android:text="@string/j"
+            android:id="@+id/textView2" />
+
+        <ImageView
+            style="@style/Keyboard"
+            android:id="@+id/delete"
+            android:src="@drawable/delete"/>
+
+    </LinearLayout>
+</LinearLayout>
