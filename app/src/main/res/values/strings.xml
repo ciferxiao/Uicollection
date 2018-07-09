@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Uicollection</string>
+
+    <!--number -->
+    <string name="a">1</string>
+    <string name="b">2</string>
+    <string name="c">3</string>
+    <string name="d">4</string>
+    <string name="e">5</string>
+    <string name="f">6</string>
+    <string name="g">7</string>
+    <string name="h">8</string>
+    <string name="i">9</string>
+    <string name="j">0</string>
+
 </resources>
